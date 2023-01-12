@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <style>
+        header{
+            background-color:#ddd ;
+            text-align: center;
+            padding: 40px;
+        }
+        h2{
+            font-size: 50px;
+        }
+        section{
+            display: flex;
+
+        }
+        nav{
+            width: 30%;
+            height: alto;
+            
+        }
+        ul{
+            background-color: #ccc;
+            
+            padding: 20px;
+            
+        }
+        article{
+            width: 70%;
+            height: alto;
+           padding: 5px;
+            
+        }
+        footer{
+            background-color: #ddd;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>Fale Conosco</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li> <a href="#Home">Home</a></li>
+                <li> <a href="#Sobre">Sobre</a></li>
+                <li><a href="Contato">Contato</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>Contatos</h1>
+            <p>Preencha os Campos Abaixo</p>
+            
+            <form method="post">
+                <div>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                </div>
+                <div>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem</label><br>
+                    <textarea name="mensagem" id="mensagem" placeholder="Escreva uma mensagem" rows="5"></textarea>
+                </div>
+                <div>
+                    <input type="submit">
+
+                </div>
+                <div>
+                    <p>
+                    <label>Qual linguagem voce prefere?</label>
+                    <input type="radio" name="linguagens" value="html">HTML
+                    <input type="radio" name="linguagens" value="css">CSS
+                    <input type="radio" name="linguagens" value="javascript">JavaScript
+                    </p>
+                </div>
+
+
+                <div>
+                    <p>
+                    <label>quais linguagens voce sabe?</label>
+                    <input type="checkbox" name="linguagens" value="html">HTML
+                    <input type="checkbox" name="linguagens" value="css">CSS
+                    <input type="checkbox" name="linguagens" value="javascript">JavaScript
+                    <!--o valor checkbox da a opcao de multipla escolha-->
+                    </p>
+                </div>
+
+                <div>
+                    <label>Qual sua cor Favorita?</label>
+                    <select>
+                        <option>azul</option>
+                        <option>vermelho</option>
+                        <option>verde</option>
+                    </select>
+                </div>
+            </form>
+
+
+        </article>
+    </section>
+    <footer>
+        <p>Desenvolvido por Luana Lopes</p>
+    </footer>
+    
+</body>
+</html>

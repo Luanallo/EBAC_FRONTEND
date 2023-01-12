@@ -1,0 +1,33 @@
+header{
+    background-color:#ddd ;
+    text-align: center;
+    padding: 40px;
+}
+h2{
+    font-size: 50px;
+}
+section{
+    display: flex;
+
+}
+nav{
+    width: 30%;
+    height: alto;
+    
+}
+ul{
+    background-color: #ccc;
+    
+    padding: 20px;
+    
+}
+article{
+    width: 70%;
+    height: alto;
+   padding: 5px;
+    
+}
+footer{
+    background-color: #ddd;
+    padding: 5px;
+}
